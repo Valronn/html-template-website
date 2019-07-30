@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["scss/main.scss","scss/variables/_colors.scss","scss/navbar/_navbar.scss","scss/header/_header.scss"],"names":[],"mappings":"AAIA;EACE,YCDU;;;ADGZ;EENE;EACA;;AFUA;EELE;EACA;EACA;;AFMF;EEHE;EACA;;;AFOJ;EGnBI;EACA;EHoBF;;AACA;EGlBE;;;AHuBJ;EEZI;EACA;EACA;;AFYA;EETA;EACA;EACA;;AFUA;EEPA;EACA;EACA;EACA;;AFOA;EEJA;EACA;EACA","file":"style.css"}

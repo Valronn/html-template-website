@@ -1,0 +1,40 @@
+@import "./variables/colors";
+@import "./navbar/navbar";
+@import "./header/header";
+
+body {
+  background: $whitesmoke;
+}
+.transparent {
+  @include navbar;
+  .navbar-center{
+      @include alignCenter;
+  }
+  .navbar-brand{
+      @include brand;
+  }
+  .nav-link{
+      @include link;
+  }
+}
+
+#mainHeader {
+  @include hBackground;
+  height: 100vh;
+  .hbrand{
+      @include hbrand;
+  }
+}
+
+.toggler{
+    @include btn;
+    .bar-1{
+        @include bar1;
+    }
+    .bar-2{
+        @include bar2;
+    }
+    .bar-3{
+        @include bar3;
+    }
+}

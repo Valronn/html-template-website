@@ -1,0 +1,50 @@
+body {
+  background: #F5F5F5;
+}
+
+.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+.transparent .navbar-brand {
+  margin-left: 200px;
+  font-size: 30px;
+  color: #fff;
+}
+.transparent .nav-link {
+  color: #fff;
+  font-size: 15px;
+}
+
+#mainHeader {
+  background: url("./imgs/bannerBackground/background_01.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+#mainHeader .hbrand {
+  height: 100vh;
+}
+
+.toggler {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+.toggler .bar-1 {
+  height: 2px;
+  width: 20px;
+  background: #fff;
+}
+.toggler .bar-2 {
+  height: 2px;
+  width: 10px;
+  margin-left: 5px;
+  background: #fff;
+}
+.toggler .bar-3 {
+  height: 2px;
+  width: 20px;
+  background: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
