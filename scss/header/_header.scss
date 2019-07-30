@@ -1,7 +1,34 @@
+@import '../variables/fonts';
+@import '../variables/colors';
+
+
 @mixin hBackground{
     background:url('./imgs/bannerBackground/background_01.jpg') no-repeat center center fixed;
     background-size:cover;
 }
 @mixin hbrand{
     height:100vh;
+}
+@mixin subTitle{
+    text-shadow:1px 0px 1px #fff;
+    color:#fff;
+    font-family:$kaushan;
+}
+@mixin mainTitle{
+    font-size:5rem;
+    font-family:$montserrat;
+    color:#fff;
+    text-shadow:2px 0px 1px #fff;
+}
+@mixin whiteUnderline{
+    height:3px;
+    background:#fff;
+    width:60px;
+}
+@mixin btnLearn{
+    color:#fff;
+    font-size:18px;
+    width:160px;
+    outline:3px solid #fff;
+    text-shadow:1px 0px 1px #fff;
 }

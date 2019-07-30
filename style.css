@@ -1,19 +1,31 @@
 body {
   background: #F5F5F5;
+  height: 100%;
 }
 
 .transparent {
+  font-family: "Montserrat", sans-serif;
   background-color: transparent;
+  height: 5rem;
   box-shadow: none;
 }
 .transparent .navbar-brand {
   margin-left: 200px;
   font-size: 30px;
   color: #fff;
+  text-shadow: 1px 0px 1px #fff;
 }
 .transparent .nav-link {
+  height: 40px;
+  transition: 0.5s all ease-in-out;
   color: #fff;
   font-size: 15px;
+  text-shadow: 1px 0px 0px #fff;
+}
+.transparent .nav-link:hover {
+  color: #FCE38A;
+  border-bottom: 4px solid #FCE38A;
+  text-shadow: 1px 0px 0px #FCE38A;
 }
 
 #mainHeader {
@@ -23,6 +35,29 @@ body {
 }
 #mainHeader .hbrand {
   height: 100vh;
+}
+#mainHeader .sub-title {
+  text-shadow: 1px 0px 1px #fff;
+  color: #fff;
+  font-family: "Kaushan Script", cursive;
+}
+#mainHeader .main-title {
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-shadow: 2px 0px 1px #fff;
+}
+#mainHeader .white-underline {
+  height: 3px;
+  background: #fff;
+  width: 60px;
+}
+#mainHeader .learnBtn {
+  color: #fff;
+  font-size: 18px;
+  width: 160px;
+  outline: 3px solid #fff;
+  text-shadow: 1px 0px 1px #fff;
 }
 
 .toggler {
@@ -45,6 +80,85 @@ body {
   height: 2px;
   width: 20px;
   background: #fff;
+}
+
+#aboutUs {
+  height: 100%;
+}
+#aboutUs .container {
+  min-height: 50%;
+  overflow: hidden;
+}
+#aboutUs .titles {
+  margin-top: 91px;
+}
+#aboutUs .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#aboutUs .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#aboutUs .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
+}
+#aboutUs .paragraph {
+  font-size: 20px;
+}
+#aboutUs .aboutImages {
+  margin-top: 95px;
+  width: 100%;
+}
+#aboutUs .aboutUsImage {
+  transition: 1s all ease-in-out;
+  width: 350px;
+}
+#aboutUs .aboutUsImage:hover {
+  box-shadow: 10px 10px 0px #95E1D3;
+}
+#aboutUs .progression {
+  background: #95E1D3;
+  margin-top: 120px;
+  height: 100%;
+  width: 100%;
+}
+#aboutUs .item {
+  height: 270px;
+}
+#aboutUs .progression-text {
+  font-size: 19px;
+  color: #fff;
+}
+#aboutUs .progression-number {
+  font-size: 94px;
+  color: #fff;
+}
+
+#amazingServices {
+  height: 100%;
+}
+#amazingServices .container {
+  min-height: 50%;
+  overflow: hidden;
+}
+#amazingServices .titles {
+  margin-top: 91px;
+}
+#amazingServices .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#amazingServices .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#amazingServices .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */

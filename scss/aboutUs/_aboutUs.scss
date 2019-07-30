@@ -1,0 +1,49 @@
+@import '../variables/colors';
+@import '../variables/fonts';
+
+
+
+@mixin topTitle{
+    font-family:$kaushan;
+    font-size:33px;
+}
+@mixin botTitle{
+    font-family:$montserrat;
+    font-size:39px;
+}
+@mixin titles{
+    margin-top:91px;
+}
+@mixin pinkUnderline{
+    height:3px;
+    background:$pink;
+    width:60px;
+}
+@mixin paragraphText{
+    font-size:20px;
+}
+@mixin aboutImages{
+    margin-top:95px;
+    width:100%;
+}
+@mixin aboutUsImage{
+    transition:1s all ease-in-out;
+    width:350px;
+}
+@mixin imageHover{
+    box-shadow:10px 10px 0px $green;
+}
+@mixin progression{
+    background:$green;
+    margin-top:120px;
+    height:100%;
+    width:100%;
+}
+@mixin progressionText{
+    font-size:19px;
+    color:#fff;
+}
+@mixin progressionNumber{
+    font-size:94px;
+    color:#fff;
+}

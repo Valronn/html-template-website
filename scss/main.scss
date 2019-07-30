@@ -1,21 +1,28 @@
 @import "./variables/colors";
+@import "./variables/fonts";
 @import "./navbar/navbar";
 @import "./header/header";
+@import './aboutUs/aboutUs';
+
+
 
 body {
   background: $whitesmoke;
+  height:100%;
 }
+
 .transparent {
+  font-family:$montserrat;
   @include navbar;
-  .navbar-center{
-      @include alignCenter;
-  }
   .navbar-brand{
       @include brand;
   }
   .nav-link{
       @include link;
   }
+  .nav-link:hover{
+        @include hoverLink;
+      }
 }
 
 #mainHeader {
@@ -23,6 +30,18 @@ body {
   height: 100vh;
   .hbrand{
       @include hbrand;
+  }
+  .sub-title{
+      @include subTitle;
+  }
+  .main-title{
+      @include mainTitle;
+  }
+  .white-underline{
+      @include whiteUnderline;
+  }
+  .learnBtn{
+      @include btnLearn;
   }
 }
 
@@ -36,5 +55,68 @@ body {
     }
     .bar-3{
         @include bar3;
+    }
+}
+
+#aboutUs{
+    height:100%;
+    .container{
+        min-height:50%;
+        overflow: hidden;
+    }
+    .titles{
+        @include titles;
+        .topTitle{
+            @include topTitle;
+        }
+        .botTitle{
+            @include botTitle;
+        }
+        .pink-underline{
+            @include pinkUnderline;
+        }
+    }
+    .paragraph{
+        @include paragraphText;
+    }
+    .aboutImages{
+        @include aboutImages;
+    }
+    .aboutUsImage{
+        @include aboutUsImage;
+    }
+    .aboutUsImage:hover{
+        @include imageHover;
+    }
+    .progression{
+        @include progression;
+    }
+    .item{
+        height:270px;
+    }
+    .progression-text{
+        @include progressionText;
+    }
+    .progression-number{
+        @include progressionNumber;
+    }
+}
+#amazingServices{
+    height:100%;
+    .container{
+        min-height:50%;
+        overflow: hidden;
+    }
+    .titles{
+        @include titles;
+        .topTitle{
+            @include topTitle;
+        }
+        .botTitle{
+            @include botTitle;
+        }
+        .pink-underline{
+            @include pinkUnderline;
+        }
     }
 }
