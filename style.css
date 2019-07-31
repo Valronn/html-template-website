@@ -240,7 +240,7 @@ body {
 #whatWeDo .greyWindow {
   width: 100%;
   height: 300px;
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 #whatWeDo .greyWindow .author {
   width: 60px;
@@ -250,6 +250,107 @@ body {
 }
 #whatWeDo .authorQuote {
   font-family: "Kaushan Script", cursive;
+}
+
+#meetOurTeam {
+  height: 100%;
+}
+#meetOurTeam .titles {
+  margin-top: 91px;
+}
+#meetOurTeam .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#meetOurTeam .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#meetOurTeam .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
+}
+#meetOurTeam .meetTeam {
+  transition: 1s all ease-in-out;
+  height: 470px;
+  width: 350px;
+}
+#meetOurTeam .meetTeam img {
+  transition: 1s all ease-in-out;
+  height: 470px;
+  width: 420px;
+}
+#meetOurTeam .meetTeam:hover {
+  box-shadow: 10px 10px 0px #95E1D3;
+  background: #f38181;
+  background: linear-gradient(180deg, #f38181 42%, #fce38a 92%);
+}
+#meetOurTeam .meetTeam:hover img {
+  opacity: 0.3;
+}
+#meetOurTeam .meetTeam:hover .icons {
+  position: absolute;
+  opacity: 1;
+  border: none;
+}
+#meetOurTeam .icons {
+  position: absolute;
+  transition: 1s all ease-in-out;
+  opacity: 0;
+  z-index: 5;
+  border: none;
+}
+#meetOurTeam .icons a {
+  text-decoration: none;
+}
+#meetOurTeam .fa-facebook-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid #F38181;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  color: #fff;
+  background: #F38181;
+}
+#meetOurTeam .fa-twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid #F38181;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  color: #F38181;
+  background: #FCE38A;
+}
+#meetOurTeam .fa-pinterest-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid #F38181;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  color: #F38181;
+  background: #FCE38A;
+}
+#meetOurTeam .fa-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  color: #F38181;
+  background: #FCE38A;
+}
+#meetOurTeam .greyWindow {
+  width: 100%;
+  height: 300px;
+  background: #F8F8F8;
 }
 
 /*# sourceMappingURL=style.css.map */

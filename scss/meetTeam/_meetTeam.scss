@@ -1,0 +1,30 @@
+@import '../variables/colors';
+
+
+@mixin photoHover{
+    box-shadow:10px 10px 0px $green;
+    background: rgb(243,129,129);
+    background: linear-gradient(180deg, rgba(243,129,129,1) 42%, rgba(252,227,138,1) 92%);
+}
+@mixin facebookBk{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:0.5px solid $pink;
+    font-size:30px;
+    height:55px;
+    width:55px;
+    color:#fff;
+    background: $pink;
+}
+@mixin otherIcons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:0.5px solid $pink;
+    font-size:30px;
+    height:55px;
+    width:55px;
+    color:$pink;
+    background: $yellow;
+}
