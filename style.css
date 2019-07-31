@@ -214,6 +214,42 @@ body {
 }
 #whatWeDo .paragraph {
   font-size: 20px;
+  margin-bottom: 100px;
+}
+#whatWeDo .leftPhoto {
+  height: 445px;
+  margin-bottom: 120px;
+}
+#whatWeDo #collapseOne {
+  position: relative;
+}
+#whatWeDo .arrow {
+  height: 12px;
+  width: 22px;
+}
+#whatWeDo .arrow2 {
+  margin-left: 315px;
+}
+#whatWeDo .arrow3 {
+  margin-left: 310px;
+}
+#whatWeDo .leftIcon {
+  width: 30px;
+  height: 30px;
+}
+#whatWeDo .greyWindow {
+  width: 100%;
+  height: 300px;
+  background: #F8F8F8;
+}
+#whatWeDo .greyWindow .author {
+  width: 60px;
+  height: 3px;
+  background: #F38181;
+  margin-top: 0.65rem;
+}
+#whatWeDo .authorQuote {
+  font-family: "Kaushan Script", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
