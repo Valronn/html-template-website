@@ -2,121 +2,165 @@
 @import "./variables/fonts";
 @import "./navbar/navbar";
 @import "./header/header";
-@import './aboutUs/aboutUs';
+@import "./aboutUs/aboutUs";
 
-
-
+html,
 body {
-  background: $whitesmoke;
-  height:100%;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #fff;
 }
 
 .transparent {
-  font-family:$montserrat;
+  font-family: $montserrat;
   @include navbar;
-  .navbar-brand{
-      @include brand;
+  .navbar-brand {
+    @include brand;
   }
-  .nav-link{
-      @include link;
+  .nav-link {
+    @include link;
   }
-  .nav-link:hover{
-        @include hoverLink;
-      }
+  .nav-link:hover {
+    @include hoverLink;
+  }
 }
 
 #mainHeader {
   @include hBackground;
   height: 100vh;
-  .hbrand{
-      @include hbrand;
+  .hbrand {
+    @include hbrand;
   }
-  .sub-title{
-      @include subTitle;
+  .sub-title {
+    @include subTitle;
   }
-  .main-title{
-      @include mainTitle;
+  .main-title {
+    @include mainTitle;
   }
-  .white-underline{
-      @include whiteUnderline;
+  .white-underline {
+    @include whiteUnderline;
   }
-  .learnBtn{
-      @include btnLearn;
+  .learnBtn {
+    @include btnLearn;
   }
 }
 
-.toggler{
-    @include btn;
-    .bar-1{
-        @include bar1;
-    }
-    .bar-2{
-        @include bar2;
-    }
-    .bar-3{
-        @include bar3;
-    }
+.toggler {
+  @include btn;
+  .bar-1 {
+    @include bar1;
+  }
+  .bar-2 {
+    @include bar2;
+  }
+  .bar-3 {
+    @include bar3;
+  }
 }
 
-#aboutUs{
-    height:100%;
-    .container{
-        min-height:50%;
-        overflow: hidden;
+#aboutUs {
+  height: 100%;
+  .container {
+    min-height: 50%;
+    overflow: hidden;
+  }
+  .titles {
+    @include titles;
+    .topTitle {
+      @include topTitle;
     }
-    .titles{
-        @include titles;
-        .topTitle{
-            @include topTitle;
-        }
-        .botTitle{
-            @include botTitle;
-        }
-        .pink-underline{
-            @include pinkUnderline;
-        }
+    .botTitle {
+      @include botTitle;
     }
-    .paragraph{
-        @include paragraphText;
+    .pink-underline {
+      @include pinkUnderline;
     }
-    .aboutImages{
-        @include aboutImages;
-    }
-    .aboutUsImage{
-        @include aboutUsImage;
-    }
-    .aboutUsImage:hover{
-        @include imageHover;
-    }
-    .progression{
-        @include progression;
-    }
-    .item{
-        height:270px;
-    }
-    .progression-text{
-        @include progressionText;
-    }
-    .progression-number{
-        @include progressionNumber;
-    }
+  }
+  .paragraph {
+    @include paragraphText;
+  }
+  .aboutImages {
+    @include aboutImages;
+  }
+  .aboutUsImage {
+    @include aboutUsImage;
+  }
+  .aboutUsImage:hover {
+    @include imageHover;
+  }
+  .progression {
+    @include progression;
+  }
+  .item {
+    height: 270px;
+  }
+  .progression-text {
+    @include progressionText;
+  }
+  .progression-number {
+    @include progressionNumber;
+  }
 }
-#amazingServices{
-    height:100%;
-    .container{
-        min-height:50%;
-        overflow: hidden;
+#amazingServices {
+  height: 100%;
+  .titles {
+    @include titles;
+    .topTitle {
+      @include topTitle;
     }
-    .titles{
-        @include titles;
-        .topTitle{
-            @include topTitle;
-        }
-        .botTitle{
-            @include botTitle;
-        }
-        .pink-underline{
-            @include pinkUnderline;
-        }
+    .botTitle {
+      @include botTitle;
     }
+    .pink-underline {
+      @include pinkUnderline;
+    }
+  }
+  .img-fluid{
+      width:32px;
+      height:32px;
+  }
+  margin-bottom: 126px;
+}
+#uniqueDesign {
+  height: 850px;
+  background: url(./imgs/uniqueDesignBackground/images/background_02.jpg)
+    no-repeat center center fixed;
+  .titles {
+    @include titles;
+    .topTitle {
+      @include topTitle;
+    }
+    .botTitle {
+      @include botTitle;
+    }
+    .pink-underline {
+      @include pinkUnderline;
+    }
+  }
+  .img-fluid {
+    opacity: 0.9;
+  }
+}
+#whatWeDo {
+  height: 100%;
+  .titles {
+    @include titles;
+    .topTitle {
+      @include topTitle;
+    }
+    .botTitle {
+      @include botTitle;
+    }
+    .pink-underline {
+      @include pinkUnderline;
+    }
+  }
+
+  .paragraph {
+    @include paragraphText;
+  }
 }

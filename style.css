@@ -1,6 +1,13 @@
+html,
 body {
-  background: #F5F5F5;
-  height: 100%;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #fff;
 }
 
 .transparent {
@@ -139,10 +146,7 @@ body {
 
 #amazingServices {
   height: 100%;
-}
-#amazingServices .container {
-  min-height: 50%;
-  overflow: hidden;
+  margin-bottom: 126px;
 }
 #amazingServices .titles {
   margin-top: 91px;
@@ -159,6 +163,57 @@ body {
   height: 3px;
   background: #F38181;
   width: 60px;
+}
+#amazingServices .img-fluid {
+  width: 32px;
+  height: 32px;
+}
+
+#uniqueDesign {
+  height: 850px;
+  background: url(./imgs/uniqueDesignBackground/images/background_02.jpg) no-repeat center center fixed;
+}
+#uniqueDesign .titles {
+  margin-top: 91px;
+}
+#uniqueDesign .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#uniqueDesign .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#uniqueDesign .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
+}
+#uniqueDesign .img-fluid {
+  opacity: 0.9;
+}
+
+#whatWeDo {
+  height: 100%;
+}
+#whatWeDo .titles {
+  margin-top: 91px;
+}
+#whatWeDo .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#whatWeDo .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#whatWeDo .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
+}
+#whatWeDo .paragraph {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
