@@ -11,6 +11,7 @@ body {
   overflow-x: hidden !important;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 body {
   background: #fff;
@@ -61,7 +62,21 @@ body {
   .bar-3 {
     @include bar3;
   }
+  
 }
+
+.change{
+    transition:1s all ease;
+    .bar-1{
+      transform: rotate(-45deg) translate(-5px,6.5px);
+    }
+    .bar-2{
+      opacity:0
+    }
+    .bar-3{
+      transform: rotate(45deg) translate(-2.5px,-5px);
+    }
+  }
 
 #aboutUs {
   height: 100%;
@@ -345,5 +360,26 @@ body {
   .iconM{
     height:11px;
     width:15px;
+  }
+}
+.endPage{
+  height:100%;
+  .btn{
+    width:120px;
+    height:39px;
+  }
+  .blogImg{
+    height:80px;
+    width:120px;
+  }
+  .blogs{
+    margin-top:4rem;
+  }
+  .instagram{
+    width:100px;
+    height:100px;
+  }
+  i{
+    font-size:25px;
   }
 }
