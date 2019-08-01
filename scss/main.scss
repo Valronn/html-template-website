@@ -324,3 +324,26 @@ body {
     margin-bottom: 131px;
   }
 }
+#latestBlog{
+  height:100%;
+  .titles {
+    @include titles;
+    .topTitle {
+      @include topTitle;
+    }
+    .botTitle {
+      @include botTitle;
+    }
+    .pink-underline {
+      @include pinkUnderline;
+    }
+  }
+  .icon{
+    height:11px;
+    width:20px;
+  }
+  .iconM{
+    height:11px;
+    width:15px;
+  }
+}

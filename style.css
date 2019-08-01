@@ -414,4 +414,32 @@ body {
   margin-bottom: 131px;
 }
 
+#latestBlog {
+  height: 100%;
+}
+#latestBlog .titles {
+  margin-top: 91px;
+}
+#latestBlog .titles .topTitle {
+  font-family: "Kaushan Script", cursive;
+  font-size: 33px;
+}
+#latestBlog .titles .botTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 39px;
+}
+#latestBlog .titles .pink-underline {
+  height: 3px;
+  background: #F38181;
+  width: 60px;
+}
+#latestBlog .icon {
+  height: 11px;
+  width: 20px;
+}
+#latestBlog .iconM {
+  height: 11px;
+  width: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
