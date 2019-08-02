@@ -1,7 +1,7 @@
 html,
 body {
-  width: 100% !important;
-  overflow-x: hidden !important;
+  width: 100%;
+  overflow-x: hidden;
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
